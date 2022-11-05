@@ -49,12 +49,12 @@ const BlogCard = ({ blogs }) => {
                 whiteSpace={''}
                 fontWeight={600}
                 fontSize={'26px'}
-                textAlign={'justify'}
+               
               >
                 {blog.Title}
               </Heading>
 
-              <Text color={'#232536'} textAlign={'justify'} height={'200px'}>
+              <Text color={'#232536'}  height={'200px'}>
                 {blog.Article}
               </Text>
             </Stack>

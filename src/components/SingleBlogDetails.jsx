@@ -41,7 +41,7 @@ const SingleBlogDetails = ({ data }) => {
               </Stack>
 
               <Stack>
-                <Heading fontWeight={700} fontFamily={'Manrope !important'}>
+                <Heading textAlign={'justify'} fontWeight={700} fontFamily={'Manrope !important'}>
                   {blogDetails.Title}
                 </Heading>
               </Stack>
