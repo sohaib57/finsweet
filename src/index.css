@@ -1,6 +1,7 @@
 body,
 html {
   font-family: 'Manrope', sans-serif !important;
+  overflow-y: auto !important;
 }
 
 @font-face {

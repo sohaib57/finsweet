@@ -1,11 +1,12 @@
 import { Stack } from '@chakra-ui/react';
+import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { useLocation } from 'react-router-dom';
 import SingleBlogDetails from '../components/SingleBlogDetails';
 import { addViewCount } from '../redux/blogs/BlogSlice';
 
 const SingleBlog = () => {
+  
   const dispatch = useDispatch();
   const location = useLocation();
 
